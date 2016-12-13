@@ -1,0 +1,37 @@
+{
+  "name": "angular2-templates-brunch",
+  "version": "0.1.0",
+  "description": "Angular2 brunch plugin that inlines your angular2 templates and stylesheets into angular components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "coverage": "istanbul cover _mocha -- -R spec",
+    "preversion": "npm test",
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:corballis/angular2-templates-brunch.git"
+  },
+  "keywords": [
+    "angular2",
+    "template",
+    "brunch",
+    "angularjs"
+  ],
+  "author": "Corballis Consulting Ltd.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corballis/angular2-templates-brunch/issues"
+  },
+  "homepage": "https://github.com/corballis/angular2-templates-brunch#readme",
+  "devDependencies": {
+    "codecov": "1.0.1",
+    "istanbul": "0.4.3",
+    "mocha": "2.5.3",
+    "should": "9.0.0"
+  },
+  "dependencies": {
+  }
+}
