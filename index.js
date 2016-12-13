@@ -32,6 +32,6 @@ class Angular2TemplatesBrunchPlugin {
 
 Angular2TemplatesBrunchPlugin.prototype.brunchPlugin = true;
 Angular2TemplatesBrunchPlugin.prototype.type = 'javascript';
-Angular2TemplatesBrunchPlugin.prototype.extension = 'js';
+Angular2TemplatesBrunchPlugin.prototype.extension = 'ts';
 
 module.exports = Angular2TemplatesBrunchPlugin;
